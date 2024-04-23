@@ -1,0 +1,103 @@
+baseURL = 'https://hackathonrimac.com'
+title = 'Hackathon Rimac'
+theme = 'hugo-bootstrap'
+
+disableHugoGeneratorInject = true
+enableRobotsTXT = true
+enableGitInfo = true
+enableEmoji = true
+#sectionPagesMenu = "main"
+#googleAnalytics = "UA-1511XXXX-X"
+
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = 'series'
+  author = "authors"
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.99.1"
+
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+
+  [markup.goldmark]
+
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      wrapStandAloneImageWithinParagraph = false
+
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xHTML = false
+
+
+# Site Params
+
+# Open Graph, Twitter Cards and schema.org Thing and Article (in posts)
+# https://gohugo.io/templates/internal/#open-graph
+# https://gohugo.io/templates/internal/#twitter-cards
+# https://schema.org/Thing
+# https://schema.org/Article
+[params]
+  description = "Some tagline or small description text."
+  images = ['images/rimac-logo.svg']
+  mainMenuLogo = "images/rimac-logo.svg"
+
+  themeColor = "#fff"
+
+  [params.options]
+    bootStrapJs = true
+    breadCrumb = false
+    listCategoryFilter = true
+    listTagFilter = true
+
+
+[[menus.main]]
+name = "Inicio"
+url = "/"
+weight = 10
+
+[[menus.main]]
+name = "Retos"
+url = "/#retos"
+weight = 20
+
+
+[[menus.main]]
+name = "Información"
+url = "/bases"
+weight = 40
+

@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<section class="section {{ .Type }}">
+  <div class="container">
+    <div class="list-content">{{.Content}}</div>
+    <div class="card-strip d-flex flex-wrap">
+      {{ range .Data.Pages.ByTitle }}
+      <div class="card mx-2">
+        {{ $img := resources.Get (index .Params.images 0) }}
+        {{ with $img }}
+          {{ $imgp := $img.Resize "300x webp" }}
+          <img src="{{$imgp.RelPermalink }}" class="card-img-top" alt="{{.Title}}">
+        {{ end }}  
+        <div class="card-body">
+          <h5 class="card-title">{{.Title}}</h5>
+          <h6>{{.Params.premio}}</h6>
+          <p class="card-text">{{ .Summary }}</p>
+          <a href="#" class="card-button btn btn-outline-dark rounded-pill px-3">Ver más</a>
+        </div>
+      </div>        
+      {{ end }}
+    </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

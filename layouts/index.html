@@ -1,0 +1,53 @@
+{{ define "main" }}
+
+<section class="container hero">
+    <div id="hero-background">
+      <div class="hero-card">
+        <div class="d-inline-flex card-title">del 21 al 23 de junio</div>
+        <div class="card-body-outer d-flex">
+          <div class="card-body-inner">
+          <h2 class="mb-3 font-rimac color-gradient">Hackathon RIMAC 2024</h2>
+          <button type="button" class="btn btn-dark rounded-pill px-4">Regístrate aquí</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="container descripcion">
+  <h2 class="text-center font-rimac">¿Qué buscamos en el <span class="color-gradient">Hackathon</span> RIMAC?</h2>
+  <div class="descripcion-grid">
+    <div class="d-none d-lg-block desc1"><img src="/images/thumb1.jpg"></div>
+    <div class="d-none d-lg-block desc2"><img src="/images/thumb2.jpg"></div>
+    <div class="d-none d-lg-block desc3"><img src="/images/thumb3.jpg"></div>
+    <div class="b-wave p-4 desc4 fw-500">Diseñar soluciones disruptivas a través de nuevas tecnologías que nos ayuden a crear la comunidad de bienestar más grande.</div>
+  </div>
+</section>
+
+<section id="retos" class="container">
+  <h2 class="text-center">Conoce los <span class="color-gradient">retos</span></h2>
+      <div class="card-strip d-flex flex-wrap">
+        {{ range where .Site.RegularPages.ByTitle "Type" "retos"}}
+        <div class="card mx-2 mb-3">
+          {{ $img := resources.Get (index .Params.images 0) }}
+          {{ with $img }}
+            {{ $imgp := $img.Resize "300x webp" }}
+            <img src="{{$imgp.RelPermalink }}" class="card-img-top" alt="{{.Title}}">
+          {{ end }}  
+          <div class="card-body">
+            <h5 class="card-title">{{.Title}}</h5>
+            <h6>{{.Params.premio}}</h6>
+            <p class="card-text">{{ .Summary }}</p>
+            <a href="#" class="card-button btn btn-outline-dark rounded-pill px-3">Ver más</a>
+          </div>
+        </div>        
+        {{ end }}
+      </div>
+    </div>  
+</section>
+
+<section class="container perfiles">
+  <h2 class="text-center">¿Qué perfiles estamos buscando?</h2>
+  <h4 class="text-center">Developer Front/Back, Developers, TI, Ai Specialist, Designers (UX/UI/Service/Behav), Data Scientists, Machine Learning ...</h4>
+</section>
+{{ end }}
