@@ -26,7 +26,7 @@
 
 <section id="retos" class="container">
   <h2 class="text-center">Conoce los <span class="color-gradient">retos</span></h2>
-      <div class="card-strip d-flex flex-wrap">
+      <div class="card-strip">
         {{ range where .Site.RegularPages.ByTitle "Type" "retos"}}
         <div class="card mx-2 mb-3">
           {{ $img := resources.Get (index .Params.images 0) }}

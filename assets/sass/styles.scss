@@ -235,15 +235,31 @@ section {
   font-weight: 500;
 }
 
+.card-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(336px, 1fr));  
+  column-gap: 1.5rem;
+  @media (min-width:600px) {
+    grid-template-columns: repeat(4, minmax(240px, 1fr));   
+  }
+}
+
 .card-strip .card {
-  width: 19vw;
+  padding: 0.5rem 0.5rem 1.5rem 0.5rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
 }
 
 .card-button {
-  font-size: 0.9em;
+  font-size: 0.75rem;
+  font-weight: 600;
 }
 
 .perfiles h4 {
   width: 60%;
   margin: 1em auto;
+}
+
+h2 {
+  margin-bottom: 1em;
 }
