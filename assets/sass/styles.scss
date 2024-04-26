@@ -172,8 +172,7 @@ body {
   .card-title {
     color: white;
     font-size: 0.9rem;
-    background-color: red;
-    background-image: url("/images/wave-back-small.jpg");
+    background: linear-gradient(90deg,#ff6200 1.19%,#f7052d 27.66%,#f7052d 75.53%,#b00968);
     background-size: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -194,9 +193,7 @@ body {
   font-family: Rimac, Courier, Helvetica, Arial, sans-serif;
 }
 .color-gradient {
-  background: rgb(254,154,7);
-  background: linear-gradient(60deg, rgba(254,154,7,1) 0%, rgba(251,8,45,1) 90%);
-  background-size: 100%;
+  background: linear-gradient(90deg,#ff6200 1.19%,#f7052d 27.66%,#f7052d 75.53%,#b00968);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent; 
@@ -262,4 +259,8 @@ section {
 
 h2 {
   margin-bottom: 1em;
+}
+
+.bg-gradient {
+  background-image: linear-gradient(213deg,#f7052d 5.99%,#d41983 42.37%,#621fff 82.94%);
 }
