@@ -13,5 +13,13 @@ $dark:          #212529;
 
 // Your variable overrides
 $body-bg: #fff;
-$body-color: #363b3f;
+$body-color: #000000;
 $font-size-base: 1.2rem;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
