@@ -178,9 +178,10 @@ body {
   background-size: cover;
   background-position: top;
   border-radius: 20px;
-  padding-left: 80px;
-  padding-bottom: 50px;
-  padding-top: 50px;
+  padding: 50px 30px;
+  @media (min-width:600px) {
+    padding-left: 80px;
+  }
 }
 
 .hero-card {
@@ -201,6 +202,9 @@ body {
     background-color: white;
     padding: 20px 40px 20px 20px;
     border-radius: 0px 15px 15px 15px;
+    @media (min-width:600px) {
+      width: 570px;
+    }  
   }
  
 }
@@ -222,8 +226,10 @@ section {
 
 .descripcion-grid {
   display: grid;
-  padding-left: 80px;
-  padding-right: 80px;
+  @media (min-width:600px) {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
   grid-template-columns: 1fr 1fr 2fr;
   grid-template-rows: 1fr 1fr;
   grid-column-gap: 20px;
@@ -283,7 +289,7 @@ section {
   font-weight: 600;
 }
 
-.perfiles h4 {
+.perfiles-container {
   width: 60%;
   margin: 1em auto;
 }
@@ -296,4 +302,10 @@ h2 {
 
 .bg-gradient {
   background-image: linear-gradient(213deg,#f7052d 5.99%,#d41983 42.37%,#621fff 82.94%);
+}
+
+.card-body h5 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
 }

@@ -96,8 +96,3 @@ url = "/#retos"
 weight = 20
 
 
-[[menus.main]]
-name = "Información"
-url = "/bases"
-weight = 40
-
