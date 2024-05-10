@@ -1,8 +1,50 @@
 {{ define "main" }}
 
 <div class="container py-3">
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
+  <div class="reto-detail">
+    <div class="reto-img">
+      <img class="img-fluid" src="{{index .Params.images 1}}" />
+    </div>
+    <div class="reto-text">
+      <h4 style="color: {{.Params.label_color}}">Reto {{.Params.label_id}} &nbsp; | &nbsp; {{.Params.label_aka}}</h4>
+      <h2>{{.Title}}</h2>
+      <div class="reto-item b-divider">
+        <div class="icon">
+          <img class="img-fluid" src="/images/icon-resolver.png">
+        </div>
+        <div class="text">
+          <h3>¿Qué queremos resolver?</h3>
+          {{.Params.resolver | .RenderString}}
+        </div>  
+      </div>
+
+      <div class="reto-item b-divider">
+        <div class="icon">
+          <img class="img-fluid" src="/images/icon-esperamos.png">
+        </div>
+        <div class="text">
+          <h3>¿Qué esperamos?</h3>
+          {{.Params.esperamos | .RenderString }}
+        </div>  
+      </div>
+
+      <div class="reto-item">
+        <div class="icon">
+          <img class="img-fluid" src="/images/icon-skills.png">
+        </div>
+        <div class="text">
+          <h3>Los skills recomendados</h3>
+          <ul>
+            {{range .Params.skills}}
+            <li>{{.}}</li>
+            {{ end }}
+          </ul>
+        </div>  
+      </div>
+
+    </div>
+  </div>
+
 </div>
 
 {{ end }}

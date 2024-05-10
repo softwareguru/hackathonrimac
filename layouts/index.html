@@ -30,7 +30,7 @@
   <h2 class="text-center">Conoce los <span class="color-gradient">retos</span></h2>
       <div class="card-strip">
         {{ range where .Site.RegularPages.ByTitle "Type" "retos"}}
-        <div class="card mx-2 mb-3">
+        <div class="card mx-1 mb-3">
           {{ $img := resources.Get (index .Params.images 0) }}
           {{ with $img }}
             {{ $imgp := $img.Resize "300x webp" }}
@@ -40,13 +40,14 @@
             <h5 class="card-title">{{.Title}}</h5>
             <h5>{{.Params.premio}}</h5>
             <p class="card-text">{{ .Summary }}</p>
-            <a href="#" class="card-button btn btn-outline-dark rounded-pill px-3">Ver más</a>
+            <a href="{{.RelPermalink}}" class="card-button btn btn-outline-dark rounded-pill px-3">Ver más</a>
           </div>
         </div>        
         {{ end }}
       </div>
     </div>  
 </section>
+
 
 <section class="container perfiles text-center">
   <div class="perfiles-container">
