@@ -20,4 +20,4 @@ skills:
  - Manejo de bases de datos
 ---
 
-Construye un sitio web instrumentado para experimentar campañas.
+Construye un sitio web instrumentado para experimentar campañas.<br><br>

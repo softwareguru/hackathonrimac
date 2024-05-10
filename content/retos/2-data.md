@@ -21,4 +21,4 @@ skills:
  - Algoritmos
 ---
 
-Desarrolla un proceso de scraping y transformación hacia datos estructurados para identificar poblaciones con necesidades específicas.
+Desarrolla un proceso automatizado de scraping, procesamiento y visualización de datos.

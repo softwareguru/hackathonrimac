@@ -1,7 +1,7 @@
 ---
 title: "Alertas de eventos en vivo por ubicación"
 label_id: 3
-label_aka: Data
+label_aka: New Tech
 label_color: "#621FFF"
 images:
  - /images/reto3-h.jpg
@@ -18,4 +18,4 @@ skills:
 
 ---
 
-Construye un sistema de alerta de eventos usando la información generada por el Centro de Monitoreo RIMAC.
+Construye un sistema de alerta de eventos usando datos del Centro de Monitoreo RIMAC.
