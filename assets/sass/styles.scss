@@ -41,6 +41,10 @@ body {
     font-style: normal;
     font-optical-sizing: auto;
 }
+
+h1, h2 {
+  font-weight: 700;
+}
   
 .home {
     --bd-purple: #4c0bce;
@@ -220,7 +224,6 @@ body {
     h2 {
       font-size: 60px;
       margin-bottom: 28px;
-      font-weight: 600;
     }
     
   }
@@ -231,15 +234,11 @@ body {
   font-family: Rimac, Courier, Helvetica, Arial, sans-serif;
 }
 .color-gradient {
-  background: linear-gradient(90deg,#ff6200 1.19%,#f7052d 27.66%,#f7052d 75.53%,#b00968);
+  background: linear-gradient(93.7deg, #FF6200 4.05%, #F7052D 18.46%, #F7052D 74.38%, #D41983 88.79%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;  
-}
-
-section {
-  margin-bottom: 60px;
 }
 
 .descripcion-grid {
@@ -276,8 +275,9 @@ section {
   margin: 0 auto;
   font-size: 32px;
   font-weight: 600;
+  line-height: 1.2em;
   @media (min-width: 1200px){
-    font-size: 40px;
+    font-size: 48px;
     width: 70%;
   }
 }
@@ -322,10 +322,16 @@ section {
 }
 
 .perfiles-container {
-  width: 60%;
-  margin: 1em auto;
+  width: 700px;
+  margin: 0 auto;
+  p {
+    font-size: 28px;
+  }
   @media (max-width:992px) {
     width: 90%;
+    p {
+      font-size: 24px;
+    }
   }
 }
 
@@ -370,7 +376,6 @@ div.reto-text {
 
   h2 {
     font-size: 40px;
-    font-weight: 600;
   }
 
   h3 {
@@ -448,21 +453,38 @@ a.nav-link, a.nav-link:hover {
 }
 
 .herocta {
-  padding: 5px 30px;
+  padding: 14px 35px;
 }
 
 section#retos {
   background-color: #f8f9ff;
   border-radius: 20px;
   margin: 20px;
-  padding: 40px 0px;
-  margin-bottom: 40px;
+}
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+section.hero {
+  padding-top: 20px;
 }
 
 .sponsor-strip {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   img {
     margin: 30px 40px;
   }
 }
+
+.card-img, .card-img-top {
+    border-radius: 20px;
+}
+
+.card {
+  border-color: #CCD1EE;
+}
+
