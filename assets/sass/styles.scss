@@ -173,14 +173,31 @@ body {
   }
 }
 
-#hero-background {
-  background-image: url("/images/hero-background.jpg"); 
+#hero-container {
+//  background-image: url("/images/wsoft-right-1300.png");
+  background-image: url("/images/gradiente-modal.png");
   background-size: cover;
-  background-position: top;
+  background-position: bottom right;
   border-radius: 20px;
-  padding: 50px 30px;
+  padding: 30px 50px;
+  display: grid;
+  grid-template-columns: 1fr 514px;
+  justify-content: space-between;
+  align-items: center;
+
+
   @media (min-width:768px) {
     padding-left: 80px;
+  }
+}
+
+.hero-img {
+  width: 512px;
+  img {
+    border-radius: 20px;
+  }
+  @media (max-width:1200px) {
+    display:none;
   }
 }
 
@@ -199,12 +216,13 @@ body {
     display: block;
   }
   .card-body-inner {
-    background-color: white;
-    padding: 20px 40px 20px 20px;
-    border-radius: 0px 15px 15px 15px;
-    @media (min-width:768px) {
-      width: 570px;
-    }  
+
+    h2 {
+      font-size: 60px;
+      margin-bottom: 28px;
+      font-weight: 600;
+    }
+    
   }
  
 }
@@ -253,16 +271,21 @@ section {
 
 }
 
+.descripcion-container {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 32px;
+  font-weight: 600;
+  @media (min-width: 1200px){
+    font-size: 40px;
+    width: 70%;
+  }
+}
+
 .b-wave {
   background: rgb(254,154,7);
   background: linear-gradient(120deg, rgba(254,154,7,0.4976584383753502) 0%, rgba(251,8,43,0.6012998949579832) 95%);
   border-radius: 15px;
-}
-
-.desc4 {
-  font-weight: 600;
-  font-size: 32px;
-  padding: 1.2em;
 }
 
 .fw-500 {
@@ -274,6 +297,7 @@ section {
 }
 
 .card-strip {
+  margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(336px, 1fr));  
   column-gap: 1.5rem;
@@ -291,12 +315,6 @@ section {
   font-size: 0.875rem;
 }
 
-.swiper .card {
-}
-
-.card-img-top {
-  border-radius: 20px;
-}
 
 .card-button {
   font-size: 0.75rem;
@@ -311,11 +329,6 @@ section {
   }
 }
 
-h2 {
-  font-size: 48px;
-  margin-bottom: 28px;
-  font-weight: 600;
-}
 
 .bg-gradient {
   background-image: linear-gradient(213deg,#f7052d 5.99%,#d41983 42.37%,#621fff 82.94%);
@@ -432,4 +445,24 @@ a.nav-link, a.nav-link:hover {
 .btn-dark:hover {
   color: #000000;
   background-color: white;
+}
+
+.herocta {
+  padding: 5px 30px;
+}
+
+section#retos {
+  background-color: #f8f9ff;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 40px 0px;
+  margin-bottom: 40px;
+}
+
+.sponsor-strip {
+  display: flex;
+  justify-content: center;
+  img {
+    margin: 30px 40px;
+  }
 }

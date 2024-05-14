@@ -73,8 +73,9 @@ enableEmoji = true
 # https://schema.org/Article
 [params]
   description = "Some tagline or small description text."
-  images = ['images/rimac-logo.svg']
-  mainMenuLogo = "images/rimac-logo.svg"
+  images = ['images/']
+  mainMenuLogo = "images/hackathonlogo.png"
+  copyright="2024 RIMAC Seguros y Reaseguros"
 
   themeColor = "#fff"
 

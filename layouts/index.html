@@ -1,33 +1,35 @@
 {{ define "main" }}
 
 <section class="container hero">
-    <div id="hero-background">
+    <div id="hero-container">
       <div class="hero-card">
-        <div class="d-inline-flex card-title">del 21 al 23 de junio</div>
         <div class="card-body-outer d-flex">
           <div class="card-body-inner">
-          <h2 class="mb-3 font-rimac color-gradient">Hackathon RIMAC 2024</h2>
+          <h2 class="mb-0 font-rimac color-gradient">Hackathon</h2>
+          <h2 class="font-rimac">RIMAC 2024</h2>
+          <p>Del 21 al 23 de junio</p>
           <div data-tf-live="01HW8VJQY8GGSGDC1671FKEZC3" data-tf-loaded="true">
-            <a data-tf-popup="W5aQQAVI" data-tf-opacity="100" data-tf-size="70" data-tf-iframe-props="title=Registro Hackathon RIMAC" data-tf-transitive-search-params="" data-tf-medium="snippet" role="button" class="btn btn-dark rounded-pill px-4 fw-600">Regístrate aquí</a>
+            <a data-tf-popup="W5aQQAVI" data-tf-opacity="100" data-tf-size="70" data-tf-iframe-props="title=Registro Hackathon RIMAC" data-tf-transitive-search-params="" data-tf-medium="snippet" role="button" class="btn btn-dark rounded-pill fw-600 herocta">Regístrate aquí ></a>
             </div>   
           </div>
         </div>
+      </div>
+      <div class="hero-img">
+        <img class="img-fluid" src="/images/hero.jpg">
       </div>
     </div>
 </section>
 
 <section class="container descripcion">
-  <h2 class="text-center font-rimac">¿Qué buscamos en el <span class="color-gradient">Hackathon</span> RIMAC?</h2>
-  <div class="descripcion-grid">
-    <div class="d-none d-lg-block desc1"><img src="/images/thumb1.jpg" class="img-fluid"></div>
-    <div class="d-none d-lg-block desc2"><img src="/images/thumb2.jpg" class="img-fluid"></div>
-    <div class="d-none d-xl-block desc3"><img src="/images/thumb3.jpg" class="img-fluid"></div>
-    <div class="b-wave desc4">Diseñar soluciones disruptivas a través de nuevas tecnologías que nos ayuden a crear la comunidad de bienestar más grande.</div>
+  <h2 class="text-center fw-600">¿Qué buscamos?</h2>
+  <div class="descripcion-container">
+    <div class="color-gradient desc4">Diseñar soluciones disruptivas a través de nuevas tecnologías que nos ayuden a crear la comunidad de bienestar más grande.</div>
   </div>
 </section>
 
-<section id="retos" class="container">
-  <h2 class="text-center">Conoce los <span class="color-gradient">retos</span></h2>
+<section id="retos">
+  <div class="container">
+  <h2 class="text-center fw-600">Conoce los <span class="color-gradient">retos</span></h2>
       <div class="card-strip">
         {{ range where .Site.RegularPages.ByTitle "Type" "retos"}}
         <div class="card mx-1 mb-3">
@@ -46,14 +48,31 @@
         {{ end }}
       </div>
     </div>  
+  </div>
 </section>
 
 
 <section class="container perfiles text-center">
   <div class="perfiles-container">
-    <img class="img-fluid mb-4" src="/images/perfiles.jpg"> 
-    <h2 class="text-center">¿Qué perfiles estamos buscando?</h2>
+    <img class="img-fluid mb-4" src="/images/perfiles2.jpg"> 
+    <h2 class="text-center fw-600">¿Qué perfiles estamos buscando?</h2>
     <h4 class="text-center">Developer Front/Back, Developers, TI, AI Specialist, Designers (UX/UI/Service/Behav), Data Scientists, Machine Learning ...</h4>
   </div>  
 </section>
+
+
+<section id="patrocinadores">
+  <div class="container">
+    <h2 class="text-center fw-600">
+      Patrocinadores
+    </h2>
+    <div class="sponsor-strip">
+      <img class="img-fluid" src="/images/logo-aws.png">
+      <img class="img-fluid" src="/images/logo-nttdata.png">
+      <img class="img-fluid" src="/images/logo-kyndril.png">
+    </div>
+
+  </div>
+</section>
+
 {{ end }}
