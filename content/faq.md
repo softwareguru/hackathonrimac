@@ -7,5 +7,4 @@ images:
 ---
 
 
-This is a simple about page.
-
+Preguntas y respuestas comunes para participar en el Hackathon RIMAC.
