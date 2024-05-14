@@ -96,4 +96,8 @@ name = "Retos"
 url = "/#retos"
 weight = 20
 
+[[menus.main]]
+name = "Información"
+url = "/faq"
+weight = 30
 
