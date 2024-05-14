@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+{{ $data := index .Site.Data }}
+
+<div class="container py-3">
+  <div class="reto-detail">
+    <div class="reto-img">
+      <img class="img-fluid" src="{{index .Params.images 0}}" />
+    </div>
+    <div class="reto-text">
+      <h2>{{.Title}}</h2>
+
+      {{ range $data.faq.items }}
+      <div class="faq-item b-divider">
+        <h3>{{.question}}</h3>
+        <p>{{.answer | markdownify }}</p>
+      </div>
+      {{ end }}
+
+    </div>
+  </div>
+</div>
+
+{{ end }}
