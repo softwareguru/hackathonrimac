@@ -225,6 +225,13 @@ h1, h2 {
       font-size: 60px;
       margin-bottom: 28px;
     }
+
+    @media (max-width: 768px) {
+      h2 {
+        font-size: 48px;
+      }
+      
+    }
     
   }
  
