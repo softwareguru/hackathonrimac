@@ -33,11 +33,13 @@
       <div class="card-strip">
         {{ range where .Site.RegularPages.ByTitle "Type" "retos"}}
         <div class="card mx-1 mb-3">
+          <a href="{{.RelPermalink}}">
           {{ $img := resources.Get (index .Params.images 0) }}
           {{ with $img }}
             {{ $imgp := $img.Resize "300x webp" }}
             <img src="{{$imgp.RelPermalink }}" class="card-img-top" alt="{{.Title}}">
-          {{ end }}  
+          {{ end }}
+          </a>
           <div class="card-body">
             <h5 class="card-title">Reto {{.Params.label_aka}}</h5>
             <h5>{{.Params.premio}}</h5>
