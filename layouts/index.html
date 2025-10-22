@@ -6,16 +6,17 @@
         <div class="card-body-outer d-flex">
           <div class="card-body-inner">
             <h2 class="mb-0 font-rimac color-gradient">Hackathon</h2>
-            <h2 class="font-rimac">RIMAC 2024</h2>
-            <p>Del 21 al 23 de junio</p>
-            <div data-tf-live="01HW8VJQY8GGSGDC1671FKEZC3" data-tf-loaded="true">
-              <a data-tf-popup="W5aQQAVI" data-tf-opacity="100" data-tf-size="70" data-tf-iframe-props="title=Registro Hackathon RIMAC" data-tf-transitive-search-params="" data-tf-medium="snippet" role="button" class="btn btn-dark rounded-pill fw-600 herocta">Regístrate aquí ></a>
+            <h2 class="font-rimac mb-1">RIMAC 2025</h2>
+            <h3 class="color-gradient font-rimac">Healthcare & Data</h3>
+            <p>Del 21 al 23 de Noviembre</p>
+            <div data-tf-live="01K86FW73EDTBGQ58M2XV9NM7G" data-tf-loaded="true">
+              <a data-tf-popup="D3oXnBkJ" data-tf-opacity="100" data-tf-size="70" data-tf-iframe-props="title=Registro Hackathon RIMAC" data-tf-transitive-search-params="" data-tf-medium="snippet" role="button" class="btn btn-dark rounded-pill fw-600 herocta">Regístrate aquí ></a>
             </div>   
           </div>
         </div>
       </div>
       <div class="hero-img">
-        <img class="img-fluid" src="/images/hero.jpg">
+        <img class="img-fluid" src="/images/hero2025.jpg">
       </div>
     </div>
 </section>
@@ -23,7 +24,7 @@
 <section class="container descripcion">
   <h2 class="text-center">¿Qué buscamos?</h2>
   <div class="descripcion-container">
-    <div class="color-gradient desc4">Diseñar soluciones disruptivas a través de nuevas tecnologías que nos ayuden a crear la comunidad de bienestar más grande.</div>
+    <div class="color-gradient desc4">Diseñar soluciones disruptivas en healthcare y data a través de nuevas tecnologías que contribuyan al bienestar de los peruanos</div>
   </div>
 </section>
 
@@ -31,7 +32,7 @@
   <div class="container">
   <h2 class="text-center">Conoce los <span class="color-gradient">retos</span></h2>
       <div class="card-strip">
-        {{ range where .Site.RegularPages.ByTitle "Type" "retos"}}
+        {{ range where .Site.RegularPages "Type" "retos"}}
         <div class="card mx-1 mb-3">
           <a href="{{.RelPermalink}}">
           {{ $img := resources.Get (index .Params.images 0) }}
@@ -44,7 +45,9 @@
             <h5 class="card-title">Reto {{.Params.label_aka}}</h5>
             <h5>{{.Params.premio}}</h5>
             <p class="card-text">{{ .Content | .RenderString }}</p>
-            <a href="{{.RelPermalink}}" class="card-button btn btn-outline-dark rounded-pill px-3">Ver más</a>
+<!--- 
+             <a href="{{.RelPermalink}}" class="card-button btn btn-outline-dark rounded-pill px-3">Ver más</a>
+--->
           </div>
         </div>        
         {{ end }}
@@ -58,9 +61,11 @@
   <div class="perfiles-container">
     <img class="img-fluid mb-4" src="/images/perfiles2.jpg"> 
     <h2 class="text-center">¿Qué perfiles estamos buscando?</h2>
-    <p class="text-center">Developer Front/Back, Developers, TI, AI Specialist, Designers (UX/UI/Service/Behavioral), Data Scientists, Machine Learning ...</p>
-    <div class="mt-4" data-tf-live="01HW8VJQY8GGSGDC1671FKEZC3" data-tf-loaded="true">
-      <a data-tf-popup="W5aQQAVI" data-tf-opacity="100" data-tf-size="70" data-tf-iframe-props="title=Registro Hackathon RIMAC" data-tf-transitive-search-params="" data-tf-medium="snippet" role="button" class="btn btn-dark rounded-pill fw-600 herocta">Regístrate aquí ></a>
+    <p class="text-center">
+      Developer Front/Back, Developers, TI, Ai Specialist, Designers (UX/UI/Service/Behav), Data Scientists, Machine Learning y más.
+    </p>
+    <div class="mt-4" data-tf-live="01K86FW73EDTBGQ58M2XV9NM7G" data-tf-loaded="true">
+      <a data-tf-popup="D3oXnBkJ" data-tf-opacity="100" data-tf-size="70" data-tf-iframe-props="title=Registro Hackathon RIMAC" data-tf-transitive-search-params="" data-tf-medium="snippet" role="button" class="btn btn-dark rounded-pill fw-600 herocta">Regístrate aquí ></a>
     </div>   
 
   </div>  

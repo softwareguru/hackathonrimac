@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+<div class="container">
+  <h2>{{.Title}}</h2>
+  <div class="lead">
+    {{.Content }}
+  </div>
+
+  {{ with .Params.especialidad}}<h4>Especialidad: {{.}}</h4> {{ end }}
+  
+</div>
+
+{{ end }}
+

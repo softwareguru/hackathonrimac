@@ -1,0 +1,11 @@
+---
+title: "Sharks"
+members:
+ - Gonzalo Alonso Grados Mendoza
+ - Adrian Alfredo Huaranga Jonda
+ - Jazmeni Veria Aguilar
+reto: Estructuración de datos públicos para impulsar Bienestar
+reto2: RETO ANALYTICS Creación de un nuevo modelo predictivo de datos (NPS)
+---
+
+Según un informe de la consultora McKinsey, las organizaciones que utilizan análisis de datos de manera intensiva son hasta un 23 veces más propensas a obtener mejores resultados en la adquisición de clientes, hasta 6 veces más propensas a retener clientes y hasta 19 veces más propensas a ser rentables que aquellas que no lo hacen. Al igual que lo sugiere la consultora McKinsey, nosotros como grupo también creemos que el análisis de datos es vital para tomar decisiones más acertadas y eficientes para el bienestar de las personas, durante nuestra etapa académica cada uno de los miembros de este grupo se ha formado con ese compromiso de poner nuestros conocimientos al servicio de la sociedad y creemos que en Rímac, a través de este tipo de iniciativas, nos va a ayudar a trascender y seguir soñando en grande. Es por ello que queremos tener una oportunidad para demostrar nuestro valor y potencial para poner a prueba nuestras habilidades. Tenemos conocimientos en la manipulación de bases de datos complejas, incluida la limpieza, la integración y la transformación de datos para su posterior análisis, además de conocimientos en machine learning, y otras habilidades blandas. Las aplicaciones potenciales para esta tecnología que pensamos usar en el reto de data son diversas: seguridad, diagnósticos médicos, optimización de servicios, etc. Queremos ser parte de este proceso que cambiará al mundo, el cual esperamos que inicia aquí en Rimac. Sabemos que el desafío para este reto es sumamente retador, pero también confiamos en nuestras capacidades para hacerle frente de la mejor manera, es por ello que hemos denominado como el nombre de nuestro equipo “Sharks” porque creemos que al igual que nosotros, los tiburones son animales poderosos y dominantes en su hábitat, que pueden infundir una sensación de confianza y poder, haciéndonos sentir capaces de enfrentar cualquier desafío. 

@@ -308,11 +308,12 @@ h1, h2 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(336px, 1fr));  
   column-gap: 1.5rem;
+  justify-content: space-evenly;
   @media (min-width: 768px) {
     grid-template-columns: repeat(3, minmax(240px, 1fr));   
   }
   @media (min-width:1300px) {
-    grid-template-columns: repeat(5, minmax(240px, 1fr));   
+    grid-template-columns: repeat(3, minmax(240px, 1fr));   
   }
 }
 

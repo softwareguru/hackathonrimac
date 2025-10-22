@@ -1,5 +1,6 @@
 ---
 title: "Crear una web para no clientes"
+draft: true
 label_id: 5
 label_aka: Digital
 label_color: "#621FFF"

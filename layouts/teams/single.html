@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+<div class="container">
+  <h2>{{.Title}}</h2>
+  <div class="lead">
+    {{.Content }}
+  </div>
+
+  <h3>Integrantes</h3>
+  <table>
+    <tr>
+    <th>Nombre</th>
+    <th  class="px-3">Perfil</th>
+    <th class="px-3">Ciudad</th>
+    </tr>
+    {{ range .Params.members }}    
+      {{ $member_path :=  . | urlize | printf "%s%s" "/participants/"}}
+      {{ with $.Site.GetPage $member_path }}
+      <tr>
+        <td class="pr-3">{{.Title}}</td>
+        <td class="px-3">{{.Params.profile}}</td>
+        <td class="px-3">{{.Params.location}}</td>
+      </tr>
+      {{ else }}
+      <tr>
+        <td>Not found: {{$member_path}}</td>
+      </tr>
+      {{ end }}
+    {{ end }}
+  </table>
+
+</div>
+
+{{ end }}
+

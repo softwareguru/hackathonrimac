@@ -1,5 +1,6 @@
 ---
 title: "Alertas de eventos en vivo por ubicación"
+draft: true
 label_id: 3
 label_aka: New Tech
 label_color: "#621FFF"

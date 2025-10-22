@@ -16,8 +16,7 @@ enableEmoji = true
 [taxonomies]
   tag = "tags"
   category = "categories"
-  series = 'series'
-  author = "authors"
+  reto = "retos"
 
 [sitemap]
   changefreq = "weekly"
@@ -75,7 +74,7 @@ enableEmoji = true
   description = "Participa en el Hackathon RIMAC del 21 al 23 de junio construyendo soluciones disruptivas para el bienestar de la comunidad."
   images = ['images/hackathonrimac-card.jpg']
   mainMenuLogo = "images/hackathonlogo.png"
-  copyright="2024 RIMAC Seguros y Reaseguros"
+  copyright="2025 RIMAC Seguros y Reaseguros"
 
   themeColor = "#fff"
 
