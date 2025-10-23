@@ -8,11 +8,13 @@ images:
  - /images/thumbnail-data.jpg
  - /images/detail-data.jpg
 premio: "S/ 3000"
-resolver: "Hoy en día, la información sobre médicos y especialistas se encuentra dispersa en múltiples sitios web de clínicas y hospitales, cada uno con estructuras y formatos distintos. Esto dificulta que los ciudadanos accedan de forma rápida y confiable a datos básicos como nombres, especialidades, horarios, ubicaciones o disponibilidad de doctores."
-esperamos: "Se busca desarrollar una solución que extraiga, consolide y presente de forma accesible toda esta información pública mediante un buscador inteligente de doctores y clínicas. El sistema deberá obtener datos estructurados desde diversas fuentes (sitios web de clínicas, colegios médicos, directorios oficiales, etc.), normalizarlos y permitir búsquedas dinámicas por especialidad, ubicación o disponibilidad. 
+resolver: "Hoy en día, la información sobre médicos y especialistas,  se encuentra dispersa en múltiples sitios web de clínicas y hospitales, cada uno con estructuras y formatos distintos. Esto dificulta que los ciudadanos accedan de forma rápida y confiable a datos básicos como nombres, especialidades, horarios, ubicaciones o disponibilidad de doctores y medicinas por especialidad. "
 
+esperamos: "
+<p>Se busca desarrollar una solución que extraiga, consolide y presente de forma accesible toda esta información pública mediante un buscador inteligente de doctores y clínicas.  Asimismo, obtener datos de medicamentos referenciales para las distintas especialidades. El sistema deberá obtener datos estructurados desde diversas fuentes (sitios web de clínicas, colegios médicos, directorios oficiales, etc.), normalizarlos y permitir búsquedas dinámicas por especialidad, ubicación o disponibilidad.</p>
 
-La solución ideal ofrecerá una interfaz intuitiva (web o móvil) y una API abierta que facilite futuras integraciones, demostrando cómo la inteligencia de datos y el uso responsable de información pública."
+<p>La solución ideal ofrecerá una interfaz intuitiva (web o móvil) y una API abierta que facilite futuras integraciones, demostrando cómo la inteligencia de datos y el uso responsable de información pública.</p>
+"
 
 skills:
  - Web Scraping y automatización de extracción de datos
