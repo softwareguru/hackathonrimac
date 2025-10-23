@@ -1,7 +1,7 @@
 ############################## Event ##############################
 items:
     - question: ¿Hasta cuándo puedo inscribirme?
-      answer: "Puedes registrarte hasta el 12 de junio. De igual forma para el registro en grupos."
+      answer: "Puedes registrarte hasta el 7 de noviembre. De igual forma para el registro en grupos."
 
     - question: "¿Quiénes pueden participar?"
       answer: "Profesionales, estudiantes y entusiastas de la tecnología y sus diversas áreas, mayores a 18 años con un documento de identidad."
@@ -13,23 +13,23 @@ items:
       answer: "No, la participación está limitada a un reto por equipo/participante."
 
     - question: "¿Qué pasa si soy extranjero/a?"
-      answer: "Puedes participar de manera virtual una vez confirmada tu participación."
+      answer: "Esta edición es presencial, por lo que solo podrán participar personas que se encuentren en Lima - Perú, con DNI o CE vigente."
 
     - question: "Me encuentro en Perú, ¿debo ir presencial?"
-      answer: "El formato del Hackathon es híbrido (presencial y virtual). Pedimos a los participantes que se encuentren en Perú, venir de manera presencial en tiempos determinados. Asimismo, brindaremos espacios y experiencias en las instalaciones durante el fin de semana para que puedan trabajar con sus equipos."
+      answer: "El formato del Hackathon es presencial. Pedimos a los participantes venir de manera presencial en tiempos determinados. Asimismo, brindaremos espacios y experiencias en las instalaciones durante el fin de semana para que puedan trabajar con sus equipos."
 
     - question: "¿Dónde encuentro más información?"
-      answer: "Únete a <a href='https://discord.gg/ExQYpcVhB9'>nuestro canal de Discord</a> para que puedas enterarte sobre noticias y avisos importantes."
+      answer: "Únete a nuestro canal de Discord para que puedas enterarte sobre noticias y avisos importantes: https://discord.gg/7Wp5NKdVSM"
 
     - question: "Quiero participar, pero no tengo equipo"
-      answer: "Al momento de armar equipos podrás manifestar que estas dispuesto(a) a formar parte de un equipo junto a otros participantes que quieran registrarse en grupo."
+      answer: "En el formulario podrás manifestar que estas dispuesto(a) a formar parte de un equipo junto a otros participantes que quieran registrarse en grupo."
 
     - question: "¿Tiene algún costo registrarme?"
       answer: "No, el registro es totalmente gratuito."
 
     - question: "¿Qué ofreceremos durante el evento?"
       answer: "<ul>
-      <li>Acceso a espacios y salas de trabajo de: 9am a 6pm (viernes 21 y sábado 22) y 9am a 3pm (domingo 23).</li>
+      <li>Acceso a espacios y salas de trabajo de: 9am a 6pm (viernes 21 y sábado 22).</li>
       <li>Refrigerios durante la mañana y tarde de ambos días. (No incluye almuerzos).</li>
       <li>Red Wi-Fi.</li>
       </ul>"

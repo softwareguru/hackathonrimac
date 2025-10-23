@@ -30,7 +30,7 @@
 
 <section id="retos">
   <div class="container">
-  <h2 class="text-center">Conoce los <span class="color-gradient">retos</span></h2>
+  <h2 class="text-center">Conoce los retos</h2>
       <div class="card-strip">
         {{ range where .Site.RegularPages "Type" "retos"}}
         <div class="card mx-1 mb-3">
@@ -45,12 +45,16 @@
             <h5 class="card-title">Reto {{.Params.label_aka}}</h5>
             <h5>{{.Params.premio}}</h5>
             <p class="card-text">{{ .Content | .RenderString }}</p>
-<!--- 
+ 
              <a href="{{.RelPermalink}}" class="card-button btn btn-outline-dark rounded-pill px-3">Ver más</a>
---->
+
           </div>
         </div>        
         {{ end }}
+      </div>
+      <div class="text-center mt-4">
+        <h5>+ Premio especial S/ 3000</h5>
+        <img src="/images/logo-nttdata.png">
       </div>
     </div>  
   </div>
