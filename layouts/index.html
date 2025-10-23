@@ -37,7 +37,7 @@
           <a href="{{.RelPermalink}}">
           {{ $img := resources.Get (index .Params.images 0) }}
           {{ with $img }}
-            {{ $imgp := $img.Resize "300x webp" }}
+            {{ $imgp := $img.Resize "600x webp" }}
             <img src="{{$imgp.RelPermalink }}" class="card-img-top" alt="{{.Title}}">
           {{ end }}
           </a>
