@@ -1,7 +1,7 @@
 ---
 title: "Política de privacidad"
 description: " We do not use cookies and we do not collect any personal data."
-draft: false
+draft: true
 tags: ["Privacy"]
 menu:
   footer:
