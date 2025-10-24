@@ -1,5 +1,5 @@
 ---
-title: "Estructuración de datos de clínicas"
+title: "Estructuración de datos de  clínicas y especialidades"
 weight: 1
 label_id: 1
 label_aka: Data
@@ -8,7 +8,7 @@ images:
  - /images/thumbnail-data.jpg
  - /images/detail-data.jpg
 premio: "S/ 3000"
-resolver: "Hoy en día, la información sobre médicos y especialistas,  se encuentra dispersa en múltiples sitios web de clínicas y hospitales, cada uno con estructuras y formatos distintos. Esto dificulta que los ciudadanos accedan de forma rápida y confiable a datos básicos como nombres, especialidades, horarios, ubicaciones o disponibilidad de doctores y medicinas por especialidad. "
+resolver: "Hoy en día, la información sobre médicos y especialistas,  se encuentra dispersa en múltiples sitios web de clínicas y hospitales, cada uno con estructuras y formatos distintos. Esto dificulta que los ciudadanos accedan de forma rápida y confiable a datos básicos como nombres, especialidades, horarios, ubicaciones o disponibilidad de doctores y medicinas por especialidad."
 
 esperamos: "
 <p>Se busca desarrollar una solución que extraiga, consolide y presente de forma accesible toda esta información pública mediante un buscador inteligente de doctores y clínicas.  Asimismo, obtener datos de medicamentos referenciales para las distintas especialidades. El sistema deberá obtener datos estructurados desde diversas fuentes (sitios web de clínicas, colegios médicos, directorios oficiales, etc.), normalizarlos y permitir búsquedas dinámicas por especialidad, ubicación o disponibilidad.</p>

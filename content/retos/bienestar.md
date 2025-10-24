@@ -1,5 +1,5 @@
 ---
-title: "Reto Bienestar"
+title: "Acompañamiento digital para pacientes crónicos"
 weight: 3
 label_id: 3
 label_aka: Bienestar
@@ -10,13 +10,13 @@ images:
 premio: "S/ 3000"
 resolver: "
 <p>En el Perú, miles de personas viven con enfermedades crónicas como diabetes o hipertensión, enfrentando un cuidado fragmentado, poco claro y difícil de mantener en el tiempo. Las aseguradoras cuentan con múltiples beneficios asistencias médicas, programas de bienestar, descuentos y servicios de acompañamiento, pero los pacientes no logran verlos como una experiencia continua y personalizada que los guíe en su día a día.</p>
-<p>Esta es una oportunidad para reimaginar cómo acompañar digitalmente a los pacientes crónicos, transformando su relación con la salud y el bienestar. </p>
+
+<p>Esta es una oportunidad para reimaginar cómo acompañar digitalmente a los pacientes crónicos, transformando su relación con la salud y el bienestar.</p>
 "
 esperamos: "
 <p>La solución debe enfocarse en un cuidado guiado, educativo y preventivo, sin emitir diagnósticos ni recetar medicamentos.</p>
 
 <p>Debe ofrecer un journey claro para un paciente crónico dentro dentro de un APP considerando puntos de contacto digitales con el ecosistema de salud de la aseguradora.</p>
-
 <p>El objetivo es transformar la relación del paciente con su enfermedad en una experiencia continua, comprensible y humana, donde la tecnología actúe como un aliado de bienestar y adherencia.</p>
 "
 skills:

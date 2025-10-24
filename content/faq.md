@@ -3,7 +3,7 @@ title: "Preguntas y respuestas"
 draft: false
 layout: faq
 images:
- - /images/faq.jpg
+ - /images/faq-2025.jpg
 ---
 
 
