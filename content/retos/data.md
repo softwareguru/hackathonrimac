@@ -27,4 +27,4 @@ skills:
 
 ---
 
-Utiliza tus habilidades para estructurar datos públicos del mercado automotriz.
+Utiliza tus habilidades para estructurar datos públicos del clinicas y especialidades.

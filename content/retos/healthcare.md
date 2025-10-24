@@ -23,4 +23,4 @@ skills:
  - Despliegue y servicios en la nube (AWS / Serverless / Lambda / API Gateway)
 ---
 
-Desarrollar un asistente médico virtual basado en IA que brinde orientación médica básica.
+Desarrolla un asistente médico de salud basado en IA que brinde orientación médica básica.

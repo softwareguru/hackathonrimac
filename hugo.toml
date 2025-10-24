@@ -84,9 +84,8 @@ enableEmoji = true
     listCategoryFilter = true
     listTagFilter = true
     typeform_id_short = "ChWpd8oq"
-    typeform_id_long = "01K86FW73EDTBGQ58M2XV9NM7G"
+    typeform_id_long = "01K8BNY6R5FWFTY9J54752SP0C"
   
-
 [[menus.main]]
 name = "Inicio"
 url = "/"

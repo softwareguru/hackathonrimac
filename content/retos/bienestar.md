@@ -30,4 +30,4 @@ skills:
 
 ---
 
-Crear el pre-chequeo preventivo virtual para que según resultados, automatizar las rutas de acción para pacientes.
+Crea un experiencia digital de guiado para pacientes con enfermedades crónicas.
