@@ -71,8 +71,8 @@ enableEmoji = true
 # https://schema.org/Thing
 # https://schema.org/Article
 [params]
-  description = "Participa en el Hackathon RIMAC del 21 al 23 de junio construyendo soluciones disruptivas para el bienestar de la comunidad."
-  images = ['images/hackathonrimac-card.jpg']
+  description = "Participa en el Hackathon RIMAC 2025 del 21 al 23 de noviembre construyendo soluciones disruptivas en healthcare y data."
+  images = ['images/hackathonrimac-card-2025.jpg']
   mainMenuLogo = "images/hackathonlogo.png"
   copyright="2025 RIMAC Seguros y Reaseguros"
 
